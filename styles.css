@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    /* font-family: sans-serif; */
+    font-family: 'Work Sans';
+}
+
+.banner-image {
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background: Red;
+}
+
+.container-body {
+    width: 80%;
+    background-color: green;
+}
+
+.banner-text {
+    position: absolute;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    height: 808px;
+    gap: 24px;
+    /* background-color: purple; */
+}
+
+.bold-text {
+    font-size: 65px;
+    line-height: 76px;
+    text-align: right;
+}
+
+.secondary-text {
+    font-size: 16px;
+    text-align: right;
+    line-height: 26px;
+}
+
+.button {
+    text-align: right;
+}
+
+.button>button {
+    /* text-align: right; */
+    font-size: 20px;
+    height: 64px;
+    width: 160px;
+    background-color: #F15B22;
+    border: none;
+    color: white;
+    border-radius: 5px
+}
