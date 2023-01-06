@@ -212,3 +212,45 @@ footer {
     display: flex;
     justify-content: space-between
 }
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 485px;
+}
+
+.footer-title {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.footer-text {
+    line-height: 26px;
+    font-size: 16px;
+}
+
+.fb,
+.twitter,
+.youtube {
+    background-size: 100% 100%;
+    height: 46px;
+    width: 46px;
+}
+
+.fb {
+    background: url("./images/icons/fb.png") no-repeat;
+}
+
+.twitter {
+    background: url("./images/icons/twitter.png") no-repeat;
+}
+
+.youtube {
+    background: url("./images/icons/youtube.png") no-repeat;
+}
+
+.social-icons {
+    display: flex;
+    gap: 1rem;
+}
