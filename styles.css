@@ -21,6 +21,9 @@
     position: relative;
 }
 
+
+/* banner section css starts here */
+
 .banner-container {
     background: url("./images/banner/banner1.png") no-repeat;
     background-size: 100% 100%;
