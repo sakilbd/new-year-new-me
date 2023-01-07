@@ -1,15 +1,7 @@
 * {
     margin: 0;
-    /* font-family: sans-serif; */
     font-family: 'Work Sans';
 }
-
-
-/* 
-section {
-    display: flex;
-    justify-content: column;
-} */
 
 .banner-image {
     width: 100%;
@@ -42,7 +34,6 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* align-items: center; */
     height: 808px;
     gap: 24px;
     /* background-color: purple; */
@@ -102,8 +93,6 @@ section {
     flex-direction: column;
     width: 400px;
     gap: 1rem;
-    /* flex: 1; */
-    /* background: red; */
 }
 
 .failure-section-text-header {
@@ -153,7 +142,6 @@ section {
 
 .section-text {
     font-size: 25px;
-    /* font-weight: bold; */
     line-height: 29.33px;
 }
 
@@ -161,8 +149,6 @@ section {
 /* call now section css starts here */
 
 .call-now-portion {
-    /* background: url("./images/watch.png") no-repeat;
-    background-size: 100% 100%; */
     background: rgb(2, 0, 36);
     background: linear-gradient(270deg, rgba(2, 0, 36, 1) 0%, rgba(186, 134, 19, 0.17970938375350143) 0%, rgba(213, 124, 14, 0.8883928571428571) 86%, rgba(255, 158, 0, 1) 100%, rgba(48, 25, 25, 1) 100%, rgba(118, 69, 13, 1) 100%);
     width: 100%;
