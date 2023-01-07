@@ -254,3 +254,37 @@ footer {
     display: flex;
     gap: 1rem;
 }
+
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 325px;
+}
+
+.subscribe {
+    font-size: 20px;
+    font-weight: bold;
+    height: 64px;
+    width: 160px;
+    background-color: #ffffff;
+    border: none;
+    color: #F15B22;
+    border-radius: 5px
+}
+
+.footer-subscribe-text {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.footer-input {
+    margin-top: 20px;
+    height: 60px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    background: transparent;
+    text-indent: 10px;
+    color: white;
+    font-size: 18px;
+}
